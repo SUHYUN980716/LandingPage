@@ -5,3 +5,13 @@ body{
     font-family: 'Nanum Myeongjo', serif;
 }
 /* 초기화 */
+h1, p, ul, li, div, body{
+    margin: 0; padding:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
