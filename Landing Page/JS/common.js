@@ -1,1 +1,0 @@
-$('#headerWrap').hide();
