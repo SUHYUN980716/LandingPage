@@ -17,13 +17,16 @@ a{
     text-decoration: none;
     color:black;
 }
-.page{
+#main{
     width: 100%;
-    height: 100vh;
+    height: 100%;
+
+}
+.page{
+
 }
 .page h1{
    text-align: center;
-   margin-left:230px;
    padding-top:48vh;
 }
 #footerWrap{
@@ -32,36 +35,43 @@ a{
     background-color: gray;
 }
 #sec1Wrap{
-    overflow: scroll;
+    position:relative;
 }
 #sec2Wrap{
-    overflow: scroll;
+    position:relative;
+   
 }
 #sec3Wrap{
-    overflow: scroll;
+    position:relative;
+    
 }
 #sec4Wrap{
-    overflow: scroll;
+    position:relative;
+    
 }
 #sec1{
-    width: 3000px;
+    width: 100vw;
     height: 100vh;
     background-color: yellowgreen;
+
 }
 #sec2{
-    width: 3000px;
+    width: 100vw;
     height: 100vh;
     background-color: lightcoral;
+
 }
 #sec3{
-    width: 3000px;
+    width: 100vw;
     height: 100vh;
     background-color: lightblue;
+
 }
 #sec4{
-    width: 3000px;
+    width: 100vw;
     height: 100vh;
     background-color: lightgoldenrodyellow;
+
 }
 /* 헤더 */
 #wholeWrap{
@@ -74,7 +84,8 @@ a{
     position:fixed;
     top:0;
     left:0;
-    background-color: rgba(255,255,255,0.9);
+    z-index: 2;
+    background-color: rgba(255,255,255,0.7);
 
 }
 #header{
@@ -126,9 +137,9 @@ a{
 }
 #list .list{
     width: 230px;
-    height: 50px;
+    height: 7vh;
     border-bottom: 1px solid lightgray;
-    line-height: 50px;
+    line-height: 7vh;
 
 }
 #list .list a{
@@ -148,6 +159,31 @@ a{
 }
 .list4{
     
+}
+/* 메인 영역 */
+.container{
+    width: 100vh;
+    height: 100vw;
+    box-sizing: border-box;
+    transform: rotate(-90deg) translateY(-100vw);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position:relative;
+    transform-origin: right top;
+    position:absolute;
+    top:0;
+    right:0;
+   
+}
+.container li{
+    display:block;
+    width: 100vh;
+    height: 100vw;
+    box-sizing: border-box;
+    transform: rotate(90deg) translateX(100vw);
+    transform-origin: right top;
+   
+
 }
 
 
