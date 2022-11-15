@@ -31,16 +31,36 @@ a{
     height: 20vh;
     background-color: gray;
 }
+#sec1Wrap{
+    overflow: scroll;
+}
+#sec2Wrap{
+    overflow: scroll;
+}
+#sec3Wrap{
+    overflow: scroll;
+}
+#sec4Wrap{
+    overflow: scroll;
+}
 #sec1{
+    width: 3000px;
+    height: 100vh;
     background-color: yellowgreen;
 }
 #sec2{
+    width: 3000px;
+    height: 100vh;
     background-color: lightcoral;
 }
 #sec3{
+    width: 3000px;
+    height: 100vh;
     background-color: lightblue;
 }
 #sec4{
+    width: 3000px;
+    height: 100vh;
     background-color: lightgoldenrodyellow;
 }
 /* 헤더 */
@@ -112,10 +132,13 @@ a{
 
 }
 #list .list a{
+    display:block;
+    width: 230px;
+    height: 50px;
     text-transform: capitalize;
 }
 .list1{
-
+    border-top: 1px solid lightgray;
 }
 .list2{
     
